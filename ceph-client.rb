@@ -5,11 +5,11 @@ class CephClient < Formula
   sha256 "362269c147913af874b2249a46846b0e6f82d2ceb50af46222b6ddec9991b29a"
   revision 1
 
-  bottle do
-    rebuild 1
-    root_url "https://github.com/mulbc/homebrew-ceph-client/releases/download/quincy-17.2.5-1"
-    sha256 cellar: :any, arm64_ventura: "b6e30275e0c5012874b73130fd0119b7f40f8180f1c6b54e3abb1f8bf8680ed5"
-  end
+  # bottle do
+  #   rebuild 1
+  #   root_url "https://github.com/mulbc/homebrew-ceph-client/releases/download/quincy-17.2.5-1"
+  #   sha256 cellar: :any, arm64_ventura: "b6e30275e0c5012874b73130fd0119b7f40f8180f1c6b54e3abb1f8bf8680ed5"
+  # end
 
   # depends_on "osxfuse"
   depends_on "boost@1.76"
